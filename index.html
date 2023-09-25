@@ -9,7 +9,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Moon - Multipurpose Bootstrap 4 Template by GetTemplates.co</title>
+    <title>Karla | Mi portafolio</title>
     <meta name="description" content="Core HTML Project">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -30,13 +30,50 @@
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
+    <style>
+        /* Estilos para el elemento de bienvenida */
+        .bienvenida {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        /* Estilos para las letras */
+        .bienvenida h2 .letter {
+            display: inline-block;
+            font-size: 2em;
+            animation: moveLetter 1s ease-in-out infinite alternate;
+        }
+
+        /* Animación de las letras */
+        @keyframes moveLetter {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        .hero-inferior {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh; /* Esto centra la imagen verticalmente en la pantalla completa */
+        }
+
+        /* Estilos adicionales para la imagen si es necesario */
+        .hero-inferior-imagen {
+            max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+            max-height: 100%; /* Asegura que la imagen no sea más alta que su contenedor */
+        }
+
+    </style>
 </head>
 <body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
 	<div class="boxed-page">
 		<nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="/">
-            <span class="lnr lnr-moon"></span>
+        <a class="navbar-brand d-flex align-items-center" href="./index.html">
+            <img src="./icons/desarrollador.png" alt="logo" width="50" height="50">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
             <span class="lnr lnr-menu"></span>
@@ -44,35 +81,59 @@
         <div class="collapse navbar-collapse" id="navbar-nav-header">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#sobremi">Sobre mi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#who-we-are">Profile</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
+                    <a class="nav-link" href="#testimonios">Testimonios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
             </ul>
         </div>
     </div>
     
-</nav>		<div class="jumbotron d-flex align-items-center" style="background-image: url(img/hero-2.jpg)">
-  <div class="container text-center">
-    <h1 class="display-2 mb-4">Hello, world!</h1>
-    <p>
-      Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.<br>Duis mollis, est non commodo luctus.
+</nav>
+
+<div class="jumbotron d-flex align-items-center" style="background-image: url(img/hero-2.jpg)">
+    <div class="container text-center">
+        <img class="rounded-circle" src="./img/mifoto3.jpeg" alt="Mi foto" width="160" height="180">
+
+        <div class="bienvenida">
+            <h2>
+                <span class="letter">B</span>
+                <span class="letter">i</span>
+                <span class="letter">e</span>
+                <span class="letter">n</span>
+                <span class="letter">v</span>
+                <span class="letter">e</span>
+                <span class="letter">n</span>
+                <span class="letter">i</span>
+                <span class="letter">d</span>
+                <span class="letter">@</span>
+            </h2>
+        </div>
+    <p> 
+      <b> Mi nombre es Karla Hernández Hernández. <br>
+      Gracias por unirte a mi viaje digital. Aquí, cada proyecto representa un paso hacia un mundo web más emocionante. </b>
     </p>
-  </div>
-</div>		<section id="gtco-who-we-are" class="bg-white">
+  </div> 
+</div>	
+
+
+<section id="gtco-who-we-are" class="bg-white">
+    <div class="hero-inferior">
+        <img class="hero-inferior-imagen" src="./img/programacion3.jpg"
+        alt="Lenguajes de programación" width="250" height="250">
+    </div>
+</section>
+
+
+
+<section id="gtco-who-we-are" class="bg-white">
     <div class="container">
         <div class="section-content">
             <div class="title-wrap">
