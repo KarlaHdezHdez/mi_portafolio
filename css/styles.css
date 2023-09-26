@@ -1,0 +1,103 @@
+/* Estilos para el elemento de bienvenida */
+.bienvenida {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Estilos para las letras */
+.bienvenida h2 .letter {
+    display: inline-block;
+    font-size: 2em;
+    animation: moveLetter 1s ease-in-out infinite alternate;
+}
+
+/* Animación de las letras */
+@keyframes moveLetter {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.hero-inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Esto centra la imagen verticalmente en la pantalla completa */
+}
+
+/* Estilos adicionales para la imagen si es necesario */
+.hero-inferior-imagen {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    max-height: 100%; /* Asegura que la imagen no sea más alta que su contenedor */
+}
+/* Estilo para alinear la lista hacia la izquierda */
+.lista-izquierda {
+    text-align: left;
+}
+
+/* Add this CSS to your stylesheet or in a <style> tag in your HTML document */
+/* Style the section container */
+.proyectos-recientes {
+background-color: #f2f2f2;
+padding: 40px 0;
+}
+
+/* Style the section title */
+.seccion-titulo {
+color: #333;
+font-size: 28px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* Style the section description */
+.seccion-descripcion {
+color: #666;
+font-size: 18px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+/* Style the project cards */
+.proyecto {
+background-color: #fff;
+border: 1px solid #ddd;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+padding: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.proyecto img {
+max-width: 100%;
+}
+
+.proyecto p {
+font-size: 18px;
+margin-top: 10px;
+}
+
+/* Style the project icons */
+.iconos-contenedor a {
+color: #333;
+margin: 0 10px;
+font-size: 24px;
+}
+
+/* Style the "Ver más proyectos" button */
+.btn-info {
+background-color: #007bff;
+color: #fff;
+font-size: 16px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+text-transform: uppercase;
+}
+
+.btn-info i {
+margin-left: 5px;
+}
+/* Add this CSS to your stylesheet or in a <style> tag in your HTML document */      
